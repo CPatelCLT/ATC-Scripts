@@ -1,0 +1,73 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class ATCScripts
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Dim TreeNode1 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Standard Clearance")
+        Dim TreeNode2 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Amended Route")
+        Dim TreeNode3 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Amended FL")
+        Dim TreeNode4 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Amended Route & FL")
+        Dim TreeNode5 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("No SID")
+        Dim TreeNode6 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("No SID Amended")
+        Dim TreeNode7 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("No SID Amended Route & FL")
+        Dim TreeNode8 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("IFR Clearances", New System.Windows.Forms.TreeNode() {TreeNode1, TreeNode2, TreeNode3, TreeNode4, TreeNode5, TreeNode6, TreeNode7})
+        Me.TreeView1 = New System.Windows.Forms.TreeView()
+        Me.SuspendLayout()
+        '
+        'TreeView1
+        '
+        Me.TreeView1.Location = New System.Drawing.Point(12, 12)
+        Me.TreeView1.Name = "TreeView1"
+        TreeNode1.Name = "StandardClearance"
+        TreeNode1.Text = "Standard Clearance"
+        TreeNode2.Name = "AmendedRoute"
+        TreeNode2.Text = "Amended Route"
+        TreeNode3.Name = "AmendedFL"
+        TreeNode3.Text = "Amended FL"
+        TreeNode4.Name = "AmendedRouteFL"
+        TreeNode4.Text = "Amended Route & FL"
+        TreeNode5.Name = "NoSID"
+        TreeNode5.Text = "No SID"
+        TreeNode6.Name = "NoSIDAmended"
+        TreeNode6.Text = "No SID Amended"
+        TreeNode7.Name = "NoSIDFL"
+        TreeNode7.Text = "No SID Amended Route & FL"
+        TreeNode8.Name = "IFRClearances"
+        TreeNode8.Text = "IFR Clearances"
+        Me.TreeView1.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode8})
+        Me.TreeView1.Size = New System.Drawing.Size(204, 426)
+        Me.TreeView1.TabIndex = 0
+        '
+        'ATCScripts
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.TreeView1)
+        Me.Name = "ATCScripts"
+        Me.Text = "ATC Scripts"
+        Me.ResumeLayout(False)
+
+    End Sub
+
+    Friend WithEvents TreeView1 As TreeView
+End Class

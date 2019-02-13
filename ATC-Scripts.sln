@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ATC-Scripts", "ATC-Scripts\ATC-Scripts.vbproj", "{DD721366-3236-49D3-B4C4-30367959C882}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD721366-3236-49D3-B4C4-30367959C882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD721366-3236-49D3-B4C4-30367959C882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD721366-3236-49D3-B4C4-30367959C882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD721366-3236-49D3-B4C4-30367959C882}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24357E81-7126-4DD8-A506-D8436970DBE9}
+	EndGlobalSection
+EndGlobal
